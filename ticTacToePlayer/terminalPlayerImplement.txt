@@ -1,0 +1,60 @@
+/*
+ //get player A's next move
+ playerA.nextMove();
+ 
+ //output the board
+ cout << myBoard << endl;
+ 
+ /* Check for a winner &
+ * if no winner, then check if board is full
+ 
+
+if(myBoard.winner() != Board::Empty && myBoard.isFull() == false)
+{
+    //output winner
+    cout << " And the winner is: " <<(myBoard.winner() == Board::X ? "X": "O");
+    break;
+    
+    }
+    
+    //if board is full output the board and draw
+    else if(myBoard.winner() == Board::Empty && myBoard.isFull() == true)
+    {
+        //output draw
+        cout << "that's a draw!";
+        break;
+    }
+    
+    
+    //get player B's next move
+    playerB.nextMove();
+    
+    //output the board
+    cout << myBoard << endl;
+    
+    
+    /* Check for a winner &
+     * if no winner, then check if board is full
+ 
+    
+    if(myBoard.winner() != Board::Empty && myBoard.isFull() == false)
+    {
+        //output winner
+        cout << " And the winner is: " <<(myBoard.winner() == Board::X ? "X": "O") << "\n";
+        break;
+        
+    }
+    
+    //if board is full output the board and draw
+    else if(myBoard.winner() == Board::Empty && myBoard.isFull() == true)
+    {
+        //output draw
+        cout << "that's a draw!";
+        break;
+    }
+    
+    //goto start of game loop
+ 
+ */
+
+
